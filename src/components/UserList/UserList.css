@@ -1,0 +1,24 @@
+.userList table{
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  width: 60%;
+  margin: 16px auto;
+  padding: 16px;
+  border-collapse: collapse;
+  color: #454545;
+  background-color: #fff;
+}
+.userList table td, .userList table th{
+ cursor: pointer;
+ padding: 16px;
+ text-align: center;
+}
+.userList table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: #4caf50;
+}
+.userList table tr:nth-child(even){background-color: #ccc;}
+
+.userList table tr:hover {background-color: #4caf50;}
